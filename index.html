@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT 1</title>
+
+
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            overflow: auto;
+        }
+
+        /* Style the body */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .navbar {
+
+            overflow: hidden;
+            background-color: rgb(32, 120, 208);
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .logo{
+            padding-right: 16%;
+            height: 96px;
+    
+            
+            
+        }
+
+        .centerdiv{
+        background-color: skyblue;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .icon{
+        
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        margin: 20px;
+        line-height: 20px;
+                   
+    }
+    </style>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+
+
+
+</head>
+
+<body>
+    <div style="background-image: url('https://media.istockphoto.com/id/1364883668/photo/abstract-modern-background-in-blue-and-white-contemporary-triangle-and-polygonal-shapes.jpg?b=1&s=170667a&w=0&k=20&c=yKm-T6Qsa_kGcbeIwveR9-I4jJHA6PxjdHbGuUlqaYY='); 
+     background-size: fill ;">
+        <img src="https://admission.iul.ac.in/downloads/60827d4ccfc83167092777_Logo_White_(2).png"
+            class="logo">
+            <h1 align="center">INTEGRAL UNIVERSITY</h1>
+        <h3 align="center">Department Of Computer Application</h3>
+    </div>
+    <div class="navbar">
+
+        <a href="https://www.iul.ac.in/Contactus.aspx">Contact Us</a>
+        <a href="https://iul.ac.in/About/Overview/Overview.aspx">About</a>
+        <a href="https://ilizone.iul.ac.in/" class="right">ILI</a>
+        <a href="https://iul.ac.in/CA/Student.aspx">Student's Zone</a>
+        <a href="https://iul.ac.in/admissioninfo/Infrastructure.aspx">Infrastructure</a>
+        <a href="https://www.iul.ac.in/">Home</a>
+    </div>
+
+    <iframe src="Lframe.html" style="height: 900px; width: 20%" title="Iframe Left"></iframe>
+    <iframe src="Mframe.html" style="height: 900px; width: 60%" title="Iframe Middle"></iframe>
+    <iframe src="Rframe.html" style="height: 900px; width: 19%" title="Iframe Middle"></iframe>
+
+
+
+    <footer >
+        
+        
+
+        <div class="centerdiv">
+            <div >
+                <div>
+                    <a class="icon" href="https://www.facebook.com/integralunilko/" target="_blank">
+                        <img src="facebook.png" height="30px">
+                    </a> 
+
+                    <a class="icon" href="https://www.instagram.com/integralunilko_official/?hl=en" target="_blank">
+                        <img src="instagram.png" height="30px">
+                    </a>
+                    
+                    <a class="icon" href="https://twitter.com/IntegralUnilko" target="_blank">
+                        <img src="twitter.png" height="30px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+                
+        
+
+    </footer>
+    <center><button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+    </center>
+</body>
+
+</html>
